@@ -4,18 +4,13 @@ import Navbar from "./Navbar";
 
 import Grid from "@material-ui/core/Grid";
 import PropTypes from "prop-types";
-import { Link as link } from "react-router-dom";
 
 import {
-  Card,
-  CardActions,
-  CardContent,
   Button,
   Typography,
 } from "@material-ui/core";
 import {
   createMuiTheme,
-  withStyles,
   makeStyles,
   ThemeProvider,
   useTheme,
@@ -31,7 +26,6 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableFooter from "@material-ui/core/TableFooter";
 import Paper from "@material-ui/core/Paper";
-import SettingsIcon from "@material-ui/icons/Settings";
 import IconButton from "@material-ui/core/IconButton";
 import FirstPageIcon from "@material-ui/icons/FirstPage";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";

@@ -17,7 +17,6 @@ import {Typography, Button} from '@material-ui/core';
 
 import {
     createMuiTheme,
-    withStyles,
     makeStyles,
     ThemeProvider
   } from "@material-ui/core/styles";
@@ -70,7 +69,6 @@ const useStyles = makeStyles((theme) => ({
   });
 
 function Configure(){
-    const classes = useStyles();
     const classesTable = useStylesTable();
     return(
         <ThemeProvider>

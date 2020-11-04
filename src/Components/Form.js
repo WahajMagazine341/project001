@@ -1,34 +1,23 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import Header from "./Header";
+import { useState} from "react";
 import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom"
 import {
   Button,
-  Typography,
   Paper,
-  FormControl,
-  InputLabel,
-  Input,
-  Slide,
-  FormHelperText,
-  CircularProgress,
+  Slide,  CircularProgress,
 } from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/EmailSharp";
 import VpnKeyIcon from "@material-ui/icons/VpnKey";
-import AddCircleIcon from "@material-ui/icons/AddCircle";
 import LockOpenRoundedIcon from "@material-ui/icons/LockOpenSharp";
 
 import {
   createMuiTheme,
-  withStyles,
   makeStyles,
   ThemeProvider,
 } from "@material-ui/core/styles";
 import swal from "sweetalert";
 import TextField from "@material-ui/core/TextField";
 //import { makeStyles } from '@material-ui/core/styles';
-import { green } from "@material-ui/core/colors";
 //import {classes} from "*.module.sass";
 //import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
 //import { Row } from "react-bootstrap";

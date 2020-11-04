@@ -1,7 +1,6 @@
 import React from "react";
 import {
   createMuiTheme,
-  withStyles,
   makeStyles,
   ThemeProvider,
 } from "@material-ui/core/styles";
@@ -17,7 +16,6 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
 import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
-import { configure } from "@testing-library/react";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import { Link as link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import ListIcon from "@material-ui/icons/List";
-import SettingsIcon from "@material-ui/icons/Settings";
 import IconButton from "@material-ui/core/IconButton";
 import FirstPageIcon from "@material-ui/icons/FirstPage";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
@@ -15,15 +12,10 @@ import { useHistory } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import {
   useTheme,
-  Card,
-  CardActions,
-  CardContent,
-  Button,
   Typography,
 } from "@material-ui/core";
 import {
   createMuiTheme,
-  withStyles,
   makeStyles,
   ThemeProvider,
 } from "@material-ui/core/styles";

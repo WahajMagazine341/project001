@@ -8,34 +8,22 @@ import Button from "@material-ui/core/Button";
 import ListIcon from "@material-ui/icons/List";
 import swal from "sweetalert";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import DatePicker from "react-datepicker";
 import {
   createMuiTheme,
-  withStyles,
   ThemeProvider,
-  useTheme,
 } from "@material-ui/core/styles";
 
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import PropTypes from "prop-types";
 
 //**** TABLE ******/
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
-import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
-import TableFooter from "@material-ui/core/TableFooter";
 //import Paper from "@material-ui/core/Paper";
-import SettingsIcon from "@material-ui/icons/Settings";
-import IconButton from "@material-ui/core/IconButton";
-import FirstPageIcon from "@material-ui/icons/FirstPage";
-import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
-import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import LastPageIcon from "@material-ui/icons/LastPage";
 import TextField from "@material-ui/core/TextField";
 import { Dialog, DialogContent, DialogTitle, Slide } from "@material-ui/core";
 const useStylesTable = makeStyles({
