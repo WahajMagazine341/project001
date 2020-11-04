@@ -25,7 +25,7 @@ export const Header =() =>{
         <Card className={classes.root} variant="outlined">
         <CardContent className={classes.text}>
        
-         <strong>IT'S WORKING</strong>
+         <strong>MAHA KADDU</strong>
         
         </CardContent>
          </Card>
